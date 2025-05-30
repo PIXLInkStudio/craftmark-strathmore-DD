@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700');
+@import "partials/variables.scss";
+@import "partials/mixins.scss";
+@import "partials/normalize.scss";
+
+@import "navbar";
+@import "left-section"; 
+@import "right-section"; 
+@import "base";
+@import "screen-saver";
+@import "swiper";
+@import "secondary-swiper-controller";
+@import "secondary-tab";

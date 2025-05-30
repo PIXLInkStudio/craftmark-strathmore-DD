@@ -1,0 +1,23 @@
+#secondary-tab {
+  margin-bottom: 20px;
+  .nav {
+    // justify-content: space-between;
+  }
+  .nav-item {
+    margin: 0 5px;
+    .nav-link {
+      background-color: #33333319;
+      border-radius: 8px;
+      color: $grey;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .active {
+      background-color: $green;
+      color: $l-green;
+    }
+  }
+  .nav-item:first-child {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,27 @@
+#secondary-swiper-controller {
+  .nav-item {
+    .nav-link {
+      color: $grey;
+      font-weight: bold;
+      position: relative;
+      padding: 20px 25px;
+      &:after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: $grey;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    .active {
+      color: $green;
+      &:after {
+        background-color: $green;
+      }
+    }
+  }
+}

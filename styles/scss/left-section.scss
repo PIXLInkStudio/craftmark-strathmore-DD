@@ -1,0 +1,351 @@
+// LEFT COLUMN SECTION
+#leftSection {
+    display: flex; 
+    flex-direction: column; 
+    //justify-content: space-evenly;
+    background-color: #EFF5F5; 
+    padding: 10px 30px 150px 30px;
+    height: 100vh;
+
+    //WELCOME HEADER - LOGO AND TITLE
+    #welcome-header {
+      display: flex; 
+      flex-direction: column; 
+      text-align: center; 
+      .logo {
+          a {
+            margin-top: 0px; 
+            margin-bottom: 0px; 
+          }
+          img {
+          width: clamp(10rem,15vw,17.5rem);
+          } 
+      }
+    }
+
+    // MAIN CONTENT - TAB CONTENT
+    .main-content {
+      z-index:2;
+      //height:100%;  
+      .tab-content {
+        padding: 0px 0 0px 0;
+        //height:100%; 
+      }
+      .custom-tab-content {
+        overflow: auto;
+        position: relative; 
+        z-index: 2; 
+        h1 {
+          font-size: clamp(1.563rem,2vw,3.125rem);
+          font-weight: 400;
+          margin-top: clamp(1rem,5vw,3.125rem);
+          margin-bottom: clamp(1rem,5vw,1.563rem); 
+        }
+        h2 {
+          font-size: clamp(1.156rem,2vw,2.313rem);
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-top: clamp(1rem,5vw,3.125rem);
+          margin-bottom: clamp(1rem,5vw,1.563rem);  
+        }
+        p {
+          font-size: clamp(0.75rem,1vw,0.875rem);
+          font-family:"arboria", sans-serif; 
+        }
+        span {
+          font-size: clamp(0.75rem,1vw,0.875rem);
+          font-weight: 500; 
+        }
+        ul {
+          font-size: clamp(0.75rem,1vw,0.875rem);
+        }
+        .fp-info-wrapper {
+          display: flex; 
+          flex-direction: row;
+          justify-content: space-between;
+          .info-box {
+            display: flex; 
+            flex-direction: row;
+            align-items: center;  
+            gap: 10px; 
+          }
+        }
+        .fp-video-wrapper {
+          margin-top: 2rem; 
+          margin-bottom: 2rem;
+          text-align: center;  
+          a {
+            color:#002A46; 
+            border: 1px solid #002A46; 
+            padding: 0.5rem;
+            font-weight: 500;
+            font-size: 12px;   
+          }
+        }
+      }
+      .custom-tab-content-with-secondary-tab {
+        height: 500px;
+        max-height: 500px;
+        min-height: 500px;
+      }
+    }
+
+    // MAIN NAVIGATION
+    .main-nav {
+      //margin-top: clamp(1rem,4vw,1.25rem);
+      margin-top: auto; 
+      width: 100%;
+      position: relative; 
+      z-index: 2; 
+      .nav {
+        gap: 10px;
+        align-items: center;  
+      }
+      .nav-item {
+        flex: auto;
+      }
+      #floorplans {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-link {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        color: #002A46;
+        font-weight: 500;  
+        border-radius: 0;
+        border: 1px solid #002A46; 
+        font-size: clamp(0.875rem,1vw,1rem);
+        text-align: center;
+        height: clamp(3.125rem,5vw,4.063rem);
+        padding: clamp(0.5rem,1vw,1rem)
+      }
+      .nav-link.active {
+        background-color: #002A46 !important;
+        color: white !important;
+      }
+      .dropdown-toggle {
+        &:after {
+          display: none;
+        }
+      }
+      .dropdown-menu {
+        //width: 100%;
+        padding: 0px;
+      }
+      .dropdown-item {
+        font-size: clamp(0.875rem,1vw,1rem);
+        font-weight: 500;
+        //padding: 20px 15px;
+        color: #002A46; 
+      }
+      .dropdown-item:hover {
+        background-color:#EFF5F5 !important;
+        color: #002A46 !important;  
+      }
+      .dropdown-item.active {
+        background-color:#EFF5F5 !important;
+        color: #002A46 !important;  
+      }
+    }
+
+    // SECONDARY NAVIGATION 
+    .sec-nav {
+      .nav {
+        justify-content: space-between;
+        border-bottom: 2px solid #D2E8E6; 
+        .nav-item {
+          .nav-link {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            color: #002A46;
+            font-size: clamp(0.875rem,1vw,1rem);
+            font-weight: 500;
+            padding: clamp(0.5rem,0.5vw,0.875rem);
+            border-bottom: 2px solid transparent; /* Add this line */
+            margin-bottom: -2px; /* Add this line */
+          }
+          .nav-link.active {
+            color: #002A46; /* Add this line if you want to ensure the color remains consistent */
+            border-bottom-color: #002A46; 
+          }
+        }
+      }
+    }
+    // SECONDARY NAV STYLINGS FOR EACH FLOORPLAN
+    .floorplan-nav {
+      //margin-top: 26rem;
+      //position: absolute; 
+      //width: 91%;  
+    }
+    .features-nav {
+      //margin-top: 11rem;
+      //position: absolute; 
+      //width: 91%;  
+    }
+    .siteplan-nav {
+      //margin-top: 11rem;
+      //position: absolute; 
+      //width: 91%;  
+    }
+  
+    // BACKGROUND ART
+    .left-section-bg-left-flower {
+      //width: 100%;
+      //height: 100%;
+      display: block;
+      //position: absolute;
+      top: 0;
+      left: 0;
+      //z-index: -2;
+
+      &:before {
+          /* Overlay */
+          content: "";
+          // width: 100%;
+          // height: 100%;
+          //background: #000;
+          //opacity: 0.48;
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          /* prevents the cursor from interacting with it */
+          pointer-events: none;
+      }
+
+      img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          //height: 100%;
+          //width: 100%;
+          object-fit: contain;
+      }
+    }
+
+    // BACKGROUND ART 
+    .left-section-bg-right-flower {
+      //width: 100%;
+      //height: 100%;
+      display: block;
+      //position: absolute;
+      top: 0;
+      left: 0;
+      //z-index: -2;
+
+      &:before {
+          /* Overlay */
+          content: "";
+          // width: 100%;
+          // height: 100%;
+          //background: #000;
+          //opacity: 0.48;
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          /* prevents the cursor from interacting with it */
+          pointer-events: none;
+      }
+
+      img {
+          position: absolute;
+          top: 30%;
+          right: 0;
+          //height: 100%;
+          //width: 100%;
+          object-fit: contain;
+      }
+    }
+}
+
+/// MEDIUM SCREENS
+@media (max-width: 1281px) {
+  #leftSection {
+    padding: 10px 10px 30px 10px;
+    //WELCOME HEADER - LOGO AND TITLE
+    #welcome-header {
+      .logo {
+          img {
+          width: 130px;
+          } 
+      }
+    }
+    // MAIN CONTENT - TAB CONTENT
+    .main-content {
+      z-index:2;
+      //height:100%;  
+      .tab-content {
+        padding: 0px 0 0px 0;
+        //height:100%; 
+      }
+      .custom-tab-content {
+        h1 {
+          margin-top: 10px;
+          margin-bottom: 10px; 
+        }
+        h2 {
+          margin-top: 20px;
+          margin-bottom: 20px; 
+        }
+        p {
+          font-size: 12px;
+        }
+        span {
+          font-size: 12px;
+        }
+        ul {
+          font-size: 12px;
+        }
+      }
+      .custom-tab-content-with-secondary-tab {
+        height: 400px;
+        max-height: 400px;
+        min-height: 400px;
+      }
+    }
+    // MAIN NAVIGATION
+    .main-nav {
+      //margin-top: 20px;
+      //position: absolute; 
+      //bottom: 7.5rem; 
+      //width: 97%; 
+    }
+    // SECONDARY NAV STYLINGS FOR EACH FLOORPLAN
+    // .floorplan-nav {
+    //   margin-top: 11rem;
+    //   //position: absolute; 
+    //   //width: 97%;  
+    // }
+    .maiden-nav {
+      margin-top: 12rem;  
+    }
+    .biltmore-nav {
+      margin-top: 8rem; 
+    }
+    .kenmore-nav {
+      margin-top: 13rem; 
+    }
+    .edgewater-nav {
+      margin-top: 10rem; 
+    }
+    .features-nav {
+      margin-top: 2rem;
+      //position: absolute; 
+      //width: 97%;  
+    }
+    .siteplan-nav {
+      margin-top: 2rem;
+      //position: absolute; 
+      //width: 97%;  
+    } 
+  }
+}

@@ -1,0 +1,10 @@
+#rightSection {
+    position: relative;
+    padding: 0px; 
+    height: 100vh;
+    background-color: #d2e8e6; 
+    #swiper-tab-content {
+        display: flex; 
+        flex-direction: column; 
+      }
+}
