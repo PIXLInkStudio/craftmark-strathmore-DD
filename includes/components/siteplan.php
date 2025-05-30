@@ -3,86 +3,64 @@
         <div class="tab-pane fade in show active" id="sitemap-intro" role="tabpanel">
             <h2 class="font-nelphim text-center occ-blue">Site Plan</h2>
             <p class="text-center occ-blue"> 
-                This is your opportunity to own a piece of paradise in Occoquan, Virginia – a place where luxury meets the tranquility of the great outdoors. Act now to become a founding neighbor in this sophisticated community in Occoquan, Virginia, where your dream home awaits.
+                Explore the thoughtfully designed layout of Strathmore View. This exciting community includes just 17 city-style single-family homes by Craftmark Homes and provides access to on-site green spaces with seating, walking trails, and a children’s play park. Each homesite is meticulously planned to maximize space and comfort, providing residents with a harmonious blend of urban convenience and suburban tranquility.
             </p>
         </div>
         <div class="tab-pane fade" id="shopping" role="tabpanel">
             <h2 class="font-nelphim text-center occ-blue">Shopping</h2>
             <ul>
-                <li>Tysons Corner and Tysons Galleria</li>
-                <li>Springfield Mall</li>
-                <li>Fair Oaks Mall</li>
-                <li>Potomac Mills Shopping Center</li>
-                <li>Wegmans</li>
+                <li>North Bethesda Market</li>
+                <li>Pike & Rose</li>
+                <li>Wildwood Shopping Center</li>
+                <li>Westfield Montgomery Mall</li>
                 <li>Whole Foods</li>
                 <li>Target</li>
-                <li>Costco</li>
-                <li>Walmart</li>
-                <li>Trader Joe's</li>
-                <li>Safeway</li>
-                <li>Amazon Fresh</li>
-                <li>Giant Food</li>
+                <li>Giant Foods</li>
             </ul>
         </div>
         <div class="tab-pane fade" id="dining" role="tabpanel">
             <h2 class="font-nelphim text-center occ-blue">Dining</h2>
             <ul>
-                <li>Paradise Springs Winery</li>
-                <li>Mikes American Grill</li>
-                <li>Capital Grill</li>
-                <li>Coastal Flats</li>
-                <li>Uncle Julio’s</li>
-                <li>Ozzie’s Good Eats</li>
-                <li>Silver Diner</li>
-                <li>Glory Days</li>
-                <li>Gyro Factory</li>
-                <li>2941 Restaurant</li>
-                <li>Madigan’s Waterfront</li>
+                <li>Seasons 52</li>
+                <li>Chef Tony's Fresh Seafood Restaurant </li>
+                <li>Black Market Bistro</li>
+                <li>Java Nation</li>
+                <li>Julii</li>
+                <li>Melina</li>
             </ul>
         </div>
         <div class="tab-pane fade" id="recreation" role="tabpanel">
             <h2 class="font-nelphim text-center occ-blue">Recreation</h2>
             <ul>
-                <li>Laurel Hill Golf Club</li>
-                <li>South Run Stream Valley Park</li>
-                <li>Old Hickory Golf Club</li>
-                <li>Lake Ridge Golf and Marina</li>
-                <li>Fountainhead Regional Park</li>
-                <li>Occoquan Reservoir</li>
-                <li>Belmont Bay</li>
-                <li>Burke Lake Park</li>
-                <li>Waterworks Waterpark</li>
-                <li>Pohick Bay Golf Course</li>
-                <li>Mason Neck State Park</li>
-                <li>Old Town Alexandria</li>
-                <li>National Harbor</li>
+                <li>Music Center at Strathmore</li>
+                <li>Rock Creek Park</li>
+                <li>Kennedy Shriver Aquatic Center</li>
+                <li>Garrett Park</li>
+                <li>White Flint Park</li>
+                <li>Ken-Gar Palisades Park</li>
+                <li>Wells Neighborhood Park</li>
+                <li>Garrett-Waverly Neighborhood Park</li>
+                <li>Kensington Park Library</li>
             </ul>
         </div>
         <div class="tab-pane fade" id="transportation" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Energy Saving Features</h2>
+            <h2 class="font-nelphim text-center occ-blue">Transportation</h2>
             <ul>
-                <li>Moments from VA-123/Ox Road</li>
-                <li>Close to I-95 & Route 1/Jefferson Davis Hwy</li>
-                <li>Just 30 minutes to Arlington and D.C.</li>
-                <li>About 10 minutes to Lorton VRE</li>
-                <li>Convenient to Franconia-Springfield & Vienna Metros</li>
+                <li>Grosvenor–Strathmore Metro Station</li>
+                <li>North Bethesda Metro Station</li>
+                <li>MARC Train at Kensington</li>
+                <li>Ride On Bus Service</li>
+                <li>I-495 </li>
+                <li>I-270</li>
             </ul>
         </div>
         <div class="tab-pane fade" id="schools" role="tabpanel">
             <h2 class="font-nelphim text-center occ-blue">Schools</h2>
             <ul>
-                <li>Halley Elementary School (Fairfax County Schools)</li>
-                <li>South County Middle School (Fairfax County Schools)</li>
-                <li>South County High School (Fairfax County Schools)</li>
-                <li>Bethel Holy Family Catholic School</li>
-                <li>Holy Family Academy</li>
-                <li>St. Thomas Aquinas Regional School</li>
-                <li>George Mason University</li>
-                <li>St. Bernadette Catholic School</li>
-                <li>Angelus Academy</li>
-                <li>Christ Chapel Academy</li>
-                <li>The Springs</li>
-                <li>Nativity Catholic School</li>
+                <li>Garrett Park Elementary School</li>
+                <li>Tilden Middle School </li>
+                <li>Walter Johnson High School</li>
+                <li>Georgetown Preparatory School</li>
             </ul>
         </div>
     </div>

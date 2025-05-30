@@ -32,7 +32,7 @@
     </div>
 </div>
 <!-- Secondary Navigation -->
-<div id="secondary-nav" class="sec-nav biltmore-nav">
+<div id="secondary-nav" class="sec-nav strathmore-nav">
     <ul class="nav">
         <li class="nav-item">
             <a class="nav-link active" data-toggle="tab" href="#strathmore-gallery-swiper" data-swiper="strathmore-gallery-swiper">Gallery</a>
