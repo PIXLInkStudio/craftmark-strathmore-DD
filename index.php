@@ -11,7 +11,7 @@
                 <div id="welcome-header">
                     <div class="logo">
                         <a href="/"> 
-                            <img src="/images/Logo-Occoquan.svg" alt="" class="img-fluid">
+                            <img src="/images/Strathmore-logo-color.svg" alt="" class="img-fluid">
                         </a>
                     </div>
                    
@@ -22,17 +22,8 @@
                         <div class="tab-pane fade in show active" id="welcome" role="tabpanel">
                             <?php include_once("./includes/components/welcome.php"); ?>
                         </div>
-                        <div class="tab-pane fade" id="kenmore" role="tabpanel">
-                            <?php include_once("./includes/components/floorplans/kenmore/kenmore.php"); ?>
-                        </div>
-                        <div class="tab-pane fade" id="maiden" role="tabpanel">
-                            <?php include_once("./includes/components/floorplans/maiden/maiden.php"); ?>
-                        </div>
-                        <div class="tab-pane fade" id="biltmore" role="tabpanel">
-                            <?php include_once("./includes/components/floorplans/biltmore/biltmore.php"); ?>
-                        </div>
-                        <div class="tab-pane fade" id="edgewater" role="tabpanel">
-                            <?php include_once("./includes/components/floorplans/edgewater/edgewater.php"); ?>
+                        <div class="tab-pane fade" id="strathmore" role="tabpanel">
+                            <?php include_once("./includes/components/floorplans/strathmore/strathmore.php"); ?>
                         </div>
                         <div class="tab-pane fade" id="features" role="tabpanel">
                             <?php include_once("./includes/components/features.php"); ?>
@@ -51,10 +42,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-left" id="floorplans" aria-haspopup="true" aria-expanded="true">Floor Plans<br>& Pictures<i class="fa-solid fa-chevron-up"></i></a>
                             <div class="dropdown-menu dropdown-primary" id="floorplans-dropdown-menu" aria-labelledby="floorplans">
-                                <a class="dropdown-item swiper-control" href="#kenmore" data-toggle="tab" data-swiper="kenmore-gallery-swiper">The Kenmore at The Woods</a>
-                                <a class="dropdown-item swiper-control" href="#maiden" data-toggle="tab" data-swiper="maiden-gallery-swiper">The Maiden at The Woods</a>
-                                <a class="dropdown-item swiper-control" href="#biltmore" data-toggle="tab" data-swiper="biltmore-gallery-swiper">The Biltmore at The Woods</a>
-                                <a class="dropdown-item swiper-control" href="#edgewater" data-toggle="tab" data-swiper="edgewater-gallery-swiper">The Edgewater at The Woods</a>
+                                <a class="dropdown-item swiper-control" href="#strathmore" data-toggle="tab" data-swiper="strathmore-gallery-swiper">The Strathmore</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -87,66 +75,21 @@
                     <div class="tab-pane p-0 fade in show active" id="gallery-swiper" role="tabpanel">
                         <?php include_once("./includes/components/swipers/gallery-swiper.php") ?>
                     </div>
-                    <!--Kenmore Swipers --> 
-                    <div class="tab-pane p-0 fade" id="kenmore-gallery-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/kenmore/kenmore-gallery-swiper.php") ?>
+                    <!-- Strathmore Swipers --> 
+                    <div class="tab-pane p-0 fade" id="strathmore-gallery-swiper" role="tabpanel">
+                        <?php include_once("./includes/components/swipers/strathmore/strathmore-gallery-swiper.php") ?>
                     </div>
-                    <div class="tab-pane p-0 fade" id="kenmore-ground-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/kenmore/kenmore-ground-swiper.php") ?>
+                    <div class="tab-pane p-0 fade" id="strathmore-ground-swiper" role="tabpanel">
+                        <?php include_once("./includes/components/swipers/strathmore/strathmore-ground-swiper.php") ?>
                     </div>
-                    <div class="tab-pane p-0 fade" id="kenmore-first-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/kenmore/kenmore-first-swiper.php") ?>
+                    <div class="tab-pane p-0 fade" id="strathmore-first-swiper" role="tabpanel">
+                        <?php include_once("./includes/components/swipers/strathmore/strathmore-first-swiper.php") ?>
                     </div>
-                    <div class="tab-pane p-0 fade" id="kenmore-second-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/kenmore/kenmore-second-swiper.php") ?>
+                    <div class="tab-pane p-0 fade" id="strathmore-second-swiper" role="tabpanel">
+                        <?php include_once("./includes/components/swipers/strathmore/strathmore-second-swiper.php") ?>
                     </div>
-                    <!-- Maiden Swipers --> 
-                    <div class="tab-pane p-0 fade" id="maiden-gallery-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/maiden/maiden-gallery-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="maiden-ground-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/maiden/maiden-ground-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="maiden-first-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/maiden/maiden-first-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="maiden-second-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/maiden/maiden-second-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="maiden-third-swiper" role="tabpanel"> 
-                        <?php include_once("./includes/components/swipers/maiden/maiden-third-swiper.php") ?>
-                    </div>
-                    <!-- Biltmore Swipers --> 
-                    <div class="tab-pane p-0 fade" id="biltmore-gallery-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/biltmore/biltmore-gallery-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="biltmore-ground-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/biltmore/biltmore-ground-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="biltmore-first-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/biltmore/biltmore-first-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="biltmore-second-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/biltmore/biltmore-second-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="biltmore-third-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/biltmore/biltmore-third-swiper.php") ?>
-                    </div>
-                    <!-- Edgewater Swipers --> 
-                    <div class="tab-pane p-0 fade" id="edgewater-gallery-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/edgewater/edgewater-gallery-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="edgewater-ground-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/edgewater/edgewater-ground-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="edgewater-first-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/edgewater/edgewater-first-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="edgewater-second-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/edgewater/edgewater-second-swiper.php") ?>
-                    </div>
-                    <div class="tab-pane p-0 fade" id="edgewater-third-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/edgewater/edgewater-third-swiper.php") ?>
+                    <div class="tab-pane p-0 fade" id="strathmore-third-swiper" role="tabpanel">
+                        <?php include_once("./includes/components/swipers/strathmore/strathmore-third-swiper.php") ?>
                     </div>
                     <!-- Siteplan Swiper--> 
                     <div class="tab-pane p-0 fade" id="siteplan-swiper" role="tabpanel">

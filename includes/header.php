@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Woods at Occoquan Overlook</title>
+    <title>Strathmore View</title>
 
-    <meta name="author" content="The Woods at Occoquan Overlook" />
+    <meta name="author" content="Strathmore View" />
     <meta name="Owner" content="Craftmark Homes" />
-    <meta name="Copyright" content="Copyright &copy; The Woods at Occoquan Overlook" />
+    <meta name="Copyright" content="Copyright &copy; Strathmore View" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
 

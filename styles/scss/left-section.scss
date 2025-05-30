@@ -3,7 +3,7 @@
     display: flex; 
     flex-direction: column; 
     //justify-content: space-evenly;
-    background-color: #EFF5F5; 
+    background-color: #F0EDE9; 
     padding: 10px 30px 150px 30px;
     height: 100vh;
 
@@ -114,17 +114,17 @@
         justify-content: center;
         align-items: center;
         background-color: transparent;
-        color: #002A46;
+        color: #003841;
         font-weight: 500;  
         border-radius: 0;
-        border: 1px solid #002A46; 
+        border: 1px solid #003841; 
         font-size: clamp(0.875rem,1vw,1rem);
         text-align: center;
         height: clamp(3.125rem,5vw,4.063rem);
         padding: clamp(0.5rem,1vw,1rem)
       }
       .nav-link.active {
-        background-color: #002A46 !important;
+        background-color: #003841 !important;
         color: white !important;
       }
       .dropdown-toggle {
@@ -140,15 +140,15 @@
         font-size: clamp(0.875rem,1vw,1rem);
         font-weight: 500;
         //padding: 20px 15px;
-        color: #002A46; 
+        color: #003841; 
       }
       .dropdown-item:hover {
         background-color:#EFF5F5 !important;
-        color: #002A46 !important;  
+        color: #003841 !important;  
       }
       .dropdown-item.active {
         background-color:#EFF5F5 !important;
-        color: #002A46 !important;  
+        color: #003841!important;  
       }
     }
 
@@ -156,14 +156,14 @@
     .sec-nav {
       .nav {
         justify-content: space-between;
-        border-bottom: 2px solid #D2E8E6; 
+        border-bottom: 2px solid #DBCFC1; 
         .nav-item {
           .nav-link {
             display: flex; 
             justify-content: center;
             align-items: center;
             background-color: transparent;
-            color: #002A46;
+            color: #003841;
             font-size: clamp(0.875rem,1vw,1rem);
             font-weight: 500;
             padding: clamp(0.5rem,0.5vw,0.875rem);
@@ -171,8 +171,8 @@
             margin-bottom: -2px; /* Add this line */
           }
           .nav-link.active {
-            color: #002A46; /* Add this line if you want to ensure the color remains consistent */
-            border-bottom-color: #002A46; 
+            color: #003841; /* Add this line if you want to ensure the color remains consistent */
+            border-bottom-color: #003841; 
           }
         }
       }
