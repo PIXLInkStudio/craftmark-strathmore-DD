@@ -1,0 +1,24 @@
+name: Staging Deployment
+
+on:
+  push:
+    branches: staging
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
+      - name: "Deploy"
+        uses: milanmk/actions-file-deployer@master
+        with:
+            remote-protocol: "sftp"
+            remote-host: ${{ secrets.STAGING_SFTP_HOST }}
+            remote-user: ${{ secrets.STAGING_SFTP_USERNAME }}
+            remote-password: ${{ secrets.STAGING_SFTP_PASSWORD }}
+            remote-path: "/public_html/"
+            sync-delta-excludes: "**/node_modules/**,**/.git*/**,.DS_Store,.github/**,.gitignore,package.json,package-lock.json,gulpfile.js,gulp-backup.js"
+            
