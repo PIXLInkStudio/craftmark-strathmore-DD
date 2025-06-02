@@ -1,13 +1,13 @@
 <div class="custom-tab-content custom-tab-content-with-secondary-tab">
     <div class="tab-content">
         <div class="tab-pane fade in show active" id="sitemap-intro" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Site Plan</h2>
-            <p class="text-center occ-blue"> 
+            <h2 class="royal-puerto-normal text-center occ-blue">Site Plan</h2>
+            <p class="text-center occ-blue optima-normal"> 
                 Explore the thoughtfully designed layout of Strathmore View. This exciting community includes just 17 city-style single-family homes by Craftmark Homes and provides access to on-site green spaces with seating, walking trails, and a children’s play park. Each homesite is meticulously planned to maximize space and comfort, providing residents with a harmonious blend of urban convenience and suburban tranquility.
             </p>
         </div>
         <div class="tab-pane fade" id="shopping" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Shopping</h2>
+            <h2 class="optima-normal text-center occ-blue">Shopping</h2>
             <ul>
                 <li>North Bethesda Market</li>
                 <li>Pike & Rose</li>
@@ -19,7 +19,7 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="dining" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Dining</h2>
+            <h2 class="optima-normal text-center occ-blue">Dining</h2>
             <ul>
                 <li>Seasons 52</li>
                 <li>Chef Tony's Fresh Seafood Restaurant </li>
@@ -30,7 +30,7 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="recreation" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Recreation</h2>
+            <h2 class="optima-normal text-center occ-blue">Recreation</h2>
             <ul>
                 <li>Music Center at Strathmore</li>
                 <li>Rock Creek Park</li>
@@ -44,7 +44,7 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="transportation" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Transportation</h2>
+            <h2 class="optima-normal text-center occ-blue">Transportation</h2>
             <ul>
                 <li>Grosvenor–Strathmore Metro Station</li>
                 <li>North Bethesda Metro Station</li>
@@ -55,7 +55,7 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="schools" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Schools</h2>
+            <h2 class="optima-normal text-center occ-blue">Schools</h2>
             <ul>
                 <li>Garrett Park Elementary School</li>
                 <li>Tilden Middle School </li>

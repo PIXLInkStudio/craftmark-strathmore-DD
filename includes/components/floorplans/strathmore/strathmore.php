@@ -1,6 +1,6 @@
 <div class="custom-tab-content">
-    <h2 class="font-nelphim text-center occ-blue">The Strathmore</h2>
-    <p class="text-center occ-blue">
+    <h2 class="royal-puerto-normal text-center occ-blue">The Strathmore</h2>
+    <p class="text-center occ-blue optima-normal">
         Discover The Strathmore, an inspired city-style, single-family home that redefines modern luxury. Designed with four beautifully finished levels, 
         this versatile floor plan offers elevator-ready convenience, open-concept living, and an optional rooftop terrace with sweeping views. 
         From the chef’s kitchen and sunlit breakfast area to the top-floor flex room and private suites, every space is crafted for comfort and 

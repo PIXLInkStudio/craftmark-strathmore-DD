@@ -1,9 +1,9 @@
 <div class="custom-tab-content custom-tab-content-with-secondary-tab">
     <div class="tab-content">
         <div class="tab-pane fade in show active" id="luxury-features" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Luxury Features</h2>
+            <h2 class="royal-puerto-normal text-center occ-blue">Luxury Features</h2>
             <ul>
-                <li><span class="fw-500 occ-blue">Exteriors</span>
+                <li><span class="fw-500 occ-blue optima-normal">Exteriors</span>
                     <ul>
                         <li>Brick or Stone Accents on Front (per plan)</li>
                         <li>James Hardie™ Hardie Panel Vertical Siding Board & Batten (per plan)</li>
@@ -12,7 +12,7 @@
                         <li>Professional Landscaping Package (Includes Sod and Hydroseed - Lot Specific)</li>
                     </ul>
                 </li>
-                <li><span class="fw-500 occ-blue">Interiors</span>
+                <li><span class="fw-500 occ-blue optima-normal">Interiors</span>
                     <ul>
                         <li>3 Finished Levels (Includes Finished Rec Room)</li>
                         <li>4 Bedrooms/ 4 Full Baths / 1 Half Bath</li>
@@ -32,7 +32,7 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="gourmet-kitchen" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Gourmet Kitchen</h2>
+            <h2 class="optima-normal text-center occ-blue">Gourmet Kitchen</h2>
             <ul>
                 <li>Bosch® Stainless Steel Appliance Package</li>
                 <li>Energy Star® 21.6 cu. ft. French Door Refrigerator</li>
@@ -51,9 +51,9 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="deluxe-baths" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Deluxe Baths</h2>
+            <h2 class="optima-normal text-center occ-blue">Deluxe Baths</h2>
             <ul>
-                <li><span class="fw-500 occ-blue">Owner’s Suite Bath</span>
+                <li><span class="fw-500 occ-blue optima-normal">Owner’s Suite Bath</span>
                     <ul>
                         <li>Raised Height Upgrade #1 Vanity</li>
                         <li>Upgrade #1 Quartz Vanity Top with Integral Sink</li>
@@ -67,7 +67,7 @@
                         <li>Elongated Low-Flow Toilet</li>
                     </ul>
                 </li>
-                <li><span class="fw-500 occ-blue">Secondary Baths</span>
+                <li><span class="fw-500 occ-blue optima-normal">Secondary Baths</span>
                     <ul>
                         <li>Raised Height Vanity</li>
                         <li>Quartz Vanity Top with Integral Sink</li>
@@ -77,7 +77,7 @@
                         <li>Elongated Low-Flow Toilet</li>
                     </ul>
                 </li>
-                <li><span class="fw-500 occ-blue">Powder Room</span>
+                <li><span class="fw-500 occ-blue optima-normal">Powder Room</span>
                     <ul>
                         <li>Pedestal Sink</li>
                         <li>Polished Chrome Delta® Faucet</li>
@@ -87,7 +87,7 @@
             </ul>
         </div>
         <div class="tab-pane fade" id="energy-saving-features" role="tabpanel">
-            <h2 class="font-nelphim text-center occ-blue">Energy Saving Features</h2>
+            <h2 class="optima-normal text-center occ-blue">Energy Saving Features</h2>
             <ul>
                 <li>ENERGY STAR® Version 3.1 Certified</li>
                 <li>Low-E/Argon Insulated Vinyl Windows</li>

@@ -4,6 +4,38 @@
   src: url(/styles/fonts/nelphim/Nelphim.otf);
 }
 
+@font-face {
+  font-family: 'Optima';
+  src: url('/styles/fonts/optima/Optima.ttc');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Royal Puerto';
+  src: url('/styles/fonts/royal-puerto/ROYALPUERTO-Regular.eot');
+  src: local('Royal Puerto Regular'), local('ROYALPUERTO-Regular'),
+       url('/styles/fonts/royal-puerto/ROYALPUERTO-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/styles/fonts/royal-puerto/ROYALPUERTO-Regular.woff2') format('woff2'),
+       url('/styles/fonts/royal-puerto/ROYALPUERTO-Regular.woff') format('woff'),
+       url('/styles/fonts/royal-puerto/ROYALPUERTO-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.royal-puerto-normal {
+  font-family: "Royal Puerto";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.optima-normal {
+  font-family: "Optima"; 
+  font-weight: 400; 
+}
+
 .font-nelphim {
   font-family: "Nelphim", sans-serif; 
 }
