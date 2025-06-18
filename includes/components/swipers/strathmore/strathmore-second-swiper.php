@@ -1,9 +1,9 @@
-<div class="swiper mainSwiper biltmoreSecondSwiper">
+<div class="swiper mainSwiper strathmoreSecondSwiper">
     <div class="swiper-wrapper">
-        <?php for ($i = 1; $i <= 2; $i++) { ?>
+        <?php for ($i = 1; $i < 2; $i++) { ?>
             <div class="swiper-slide floorplan">
-                <a data-fancybox="gallery" href="/images/floorplans/biltmore/second/second-<?php echo $i; ?>.jpg"> 
-                    <img src="/images/floorplans/biltmore/second/second-<?php echo $i; ?>.jpg" /> 
+                <a data-fancybox="gallery" href="/images/floorplans/strathmore/second/second-<?php echo $i; ?>.jpg"> 
+                    <img src="/images/floorplans/strathmore/second/second-<?php echo $i; ?>.jpg" /> 
                 </a> 
             </div>
         <?php } ?>
@@ -12,11 +12,11 @@
     <div class="swiper-button-prev"></div>
 </div>
 <div class="swiperThumbnailContainer">
-    <div class="swiper swiperThumbnail biltmoreSecondThumbnail">
+    <div class="swiper swiperThumbnail strathmoreSecondThumbnail">
         <div class="swiper-wrapper">
             <?php for ($i = 1; $i <= 2; $i++) { ?>
                 <div class="swiper-slide">
-                    <img src="/images/floorplans/biltmore/second/second-<?php echo $i; ?>.jpg" />
+                    <img src="/images/floorplans/strathmore/second/second-<?php echo $i; ?>.jpg" />
                 </div>
             <?php } ?>
         </div>

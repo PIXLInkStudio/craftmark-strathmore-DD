@@ -1,9 +1,9 @@
 <div class="swiper mainSwiper biltmoreFirstSwiper">
     <div class="swiper-wrapper">
-        <?php for ($i = 1; $i <= 2; $i++) { ?>
+        <?php for ($i = 1; $i < 2; $i++) { ?>
             <div class="swiper-slide floorplan">
-                <a data-fancybox="gallery" href="/images/floorplans/biltmore/first/first-<?php echo $i; ?>.jpg"> 
-                    <img src="/images/floorplans/biltmore/first/first-<?php echo $i; ?>.jpg" /> 
+                <a data-fancybox="gallery" href="/images/floorplans/strathmore/first/first-<?php echo $i; ?>.jpg"> 
+                    <img src="/images/floorplans/strathmore/first/first-<?php echo $i; ?>.jpg" /> 
                 </a>
             </div>
         <?php } ?>
@@ -16,7 +16,7 @@
         <div class="swiper-wrapper">
             <?php for ($i = 1; $i <= 2; $i++) { ?>
                 <div class="swiper-slide">
-                    <img src="/images/floorplans/biltmore/first/first-<?php echo $i; ?>.jpg" />
+                    <img src="/images/floorplans/strathmore/first/first-<?php echo $i; ?>.jpg" />
                 </div>
             <?php } ?>
         </div>

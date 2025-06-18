@@ -1,5 +1,5 @@
-// Biltmore Swiper
-var biltmoreGalleryThumbnail = new Swiper(".biltmoreGalleryThumbnail", {
+// strathmore Swiper
+var strathmoreGalleryThumbnail = new Swiper(".strathmoreGalleryThumbnail", {
     spaceBetween: 0,
     slidesPerView: 4,
     freeMode: true,
@@ -10,9 +10,9 @@ var biltmoreGalleryThumbnail = new Swiper(".biltmoreGalleryThumbnail", {
     },
 });
 
-var biltmoreGallerySwiper = new Swiper(".biltmoreGallerySwiper", { 
+var strathmoreGallerySwiper = new Swiper(".strathmoreGallerySwiper", { 
   thumbs: {
-    swiper: biltmoreGalleryThumbnail,
+    swiper: strathmoreGalleryThumbnail,
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -21,7 +21,7 @@ var biltmoreGallerySwiper = new Swiper(".biltmoreGallerySwiper", {
 });
 
 // GROUND FLOOR
-var biltmoreGroundThumbnail = new Swiper(".biltmoreGroundThumbnail", {
+var strathmoreGroundThumbnail = new Swiper(".strathmoreGroundThumbnail", {
   spaceBetween: 0,
   slidesPerView: 4,
   freeMode: true,
@@ -32,9 +32,9 @@ var biltmoreGroundThumbnail = new Swiper(".biltmoreGroundThumbnail", {
   },
 });
 
-var biltmoreGroundSwiper = new Swiper(".biltmoreGroundSwiper", {
+var strathmoreGroundSwiper = new Swiper(".strathmoreGroundSwiper", {
   thumbs: {
-    swiper: biltmoreGroundThumbnail,
+    swiper: strathmoreGroundThumbnail,
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -44,7 +44,7 @@ var biltmoreGroundSwiper = new Swiper(".biltmoreGroundSwiper", {
 
 
 // FIRST FLOOR
-var biltmoreFirstThumbnail = new Swiper(".biltmoreFirstThumbnail", {
+var strathmoreFirstThumbnail = new Swiper(".strathmoreFirstThumbnail", {
   spaceBetween: 0,
   slidesPerView: 4,
   freeMode: true,
@@ -55,9 +55,9 @@ var biltmoreFirstThumbnail = new Swiper(".biltmoreFirstThumbnail", {
   },
 });
 
-var biltmoreFirstSwiper = new Swiper(".biltmoreFirstSwiper", {
+var strathmoreFirstSwiper = new Swiper(".strathmoreFirstSwiper", {
   thumbs: {
-    swiper: biltmoreFirstThumbnail,
+    swiper: strathmoreFirstThumbnail,
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -66,7 +66,7 @@ var biltmoreFirstSwiper = new Swiper(".biltmoreFirstSwiper", {
 });
 
 // SECOND FLOOR
-var biltmoreSecondThumbnail = new Swiper(".biltmoreSecondThumbnail", {
+var strathmoreSecondThumbnail = new Swiper(".strathmoreSecondThumbnail", {
   spaceBetween: 0,
   slidesPerView: 4,
   freeMode: true,
@@ -77,9 +77,9 @@ var biltmoreSecondThumbnail = new Swiper(".biltmoreSecondThumbnail", {
   },
 });
 
-var biltmoreSecondSwiper = new Swiper(".biltmoreSecondSwiper", {
+var strathmoreSecondSwiper = new Swiper(".strathmoreSecondSwiper", {
   thumbs: {
-    swiper: biltmoreSecondThumbnail,
+    swiper: strathmoreSecondThumbnail,
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -88,7 +88,7 @@ var biltmoreSecondSwiper = new Swiper(".biltmoreSecondSwiper", {
 });
 
 // THIRD FLOOR
-var biltmoreThirdThumbnail = new Swiper(".biltmoreThirdThumbnail", {
+var strathmoreThirdThumbnail = new Swiper(".strathmoreThirdThumbnail", {
   spaceBetween: 0,
   slidesPerView: 4,
   freeMode: true,
@@ -99,9 +99,9 @@ var biltmoreThirdThumbnail = new Swiper(".biltmoreThirdThumbnail", {
   },
 });
 
-var biltmoreThirdSwiper = new Swiper(".biltmoreThirdSwiper", {
+var strathmoreThirdSwiper = new Swiper(".strathmoreThirdSwiper", {
   thumbs: {
-    swiper: biltmoreThirdThumbnail,
+    swiper: strathmoreThirdThumbnail,
   },
   navigation: {
     nextEl: ".swiper-button-next",
