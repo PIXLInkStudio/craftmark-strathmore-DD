@@ -1,6 +1,6 @@
 <div class="swiper mainSwiper strathmoreGallerySwiper">
     <div class="swiper-wrapper">
-        <?php for ($i = 1; $i <= 24; $i++) { ?>
+        <?php for ($i = 1; $i <= 2; $i++) { ?>
             <div class="swiper-slide floorplan">
                 <a data-fancybox="gallery" href="/images/floorplans/strathmore/gallery/gallery-<?php echo $i; ?>.jpg"> 
                     <img src="/images/floorplans/strathmore/gallery/gallery-<?php echo $i; ?>.jpg" /> 

@@ -1,6 +1,6 @@
 <div class="swiper mainSwiper gallerySwiper">
     <div class="swiper-wrapper">
-        <?php for ($i = 1; $i <= 38; $i++) { ?>
+        <?php for ($i = 1; $i <= 2; $i++) { ?>
             <div class="swiper-slide">
                 <a data-fancybox="gallery" href="/images/gallery/gallery-<?php echo $i; ?>.jpg">
                     <img src="/images/gallery/gallery-<?php echo $i; ?>.jpg" />
