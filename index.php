@@ -79,17 +79,14 @@
                     <div class="tab-pane p-0 fade" id="strathmore-gallery-swiper" role="tabpanel">
                         <?php include_once("./includes/components/swipers/strathmore/strathmore-gallery-swiper.php") ?>
                     </div>
-                    <div class="tab-pane p-0 fade" id="strathmore-ground-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/strathmore/strathmore-ground-swiper.php") ?>
-                    </div>
                     <div class="tab-pane p-0 fade" id="strathmore-first-swiper" role="tabpanel">
                         <?php include_once("./includes/components/swipers/strathmore/strathmore-first-swiper.php") ?>
                     </div>
                     <div class="tab-pane p-0 fade" id="strathmore-second-swiper" role="tabpanel">
                         <?php include_once("./includes/components/swipers/strathmore/strathmore-second-swiper.php") ?>
                     </div>
-                    <div class="tab-pane p-0 fade" id="strathmore-third-swiper" role="tabpanel">
-                        <?php include_once("./includes/components/swipers/strathmore/strathmore-third-swiper.php") ?>
+                    <div class="tab-pane p-0 fade" id="strathmore-ground-swiper" role="tabpanel">
+                        <?php include_once("./includes/components/swipers/strathmore/strathmore-ground-swiper.php") ?>
                     </div>
                     <!-- Siteplan Swiper--> 
                     <div class="tab-pane p-0 fade" id="siteplan-swiper" role="tabpanel">

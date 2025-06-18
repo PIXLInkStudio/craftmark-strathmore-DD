@@ -43,9 +43,6 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#strathmore-second-swiper" data-swiper="strathmore-second-swiper">Second Floor</a>
         </li>
-        <li class="nav-item d-none">
-            <a class="nav-link" data-toggle="tab" href="#strathmore-third-swiper" data-swiper="strathmore-third-swiper">Third Floor</a>
-        </li>
         <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#strathmore-ground-swiper" data-swiper="strathmore-ground-swiper">Basement</a>
         </li>
