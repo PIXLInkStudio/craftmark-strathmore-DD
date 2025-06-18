@@ -14,7 +14,7 @@
 <div class="swiperThumbnailContainer">
     <div class="swiper swiperThumbnail strathmoreGalleryThumbnail">
         <div class="swiper-wrapper">
-            <?php for ($i = 1; $i <= 24; $i++) { ?>
+            <?php for ($i = 1; $i <= 2; $i++) { ?>
                 <div class="swiper-slide">
                     <img src="/images/floorplans/strathmore/gallery/gallery-<?php echo $i; ?>.jpg" />
                 </div>
