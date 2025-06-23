@@ -1,6 +1,6 @@
 <div class="swiper mainSwiper gallerySwiper">
     <div class="swiper-wrapper">
-        <?php for ($i = 1; $i <= 7; $i++) { ?>
+        <?php for ($i = 1; $i <= 6; $i++) { ?>
             <div class="swiper-slide">
                 <a data-fancybox="gallery" href="/images/gallery/gallery-<?php echo $i; ?>.jpg">
                     <img src="/images/gallery/gallery-<?php echo $i; ?>.jpg" />
@@ -12,7 +12,7 @@
 <div class="swiperThumbnailContainer">
     <div thumbsSlider="" class="swiper swiperThumbnail galleryThumbnail">
         <div class="swiper-wrapper">
-            <?php for ($i = 1; $i <= 7; $i++) { ?>
+            <?php for ($i = 1; $i <= 6; $i++) { ?>
                 <div class="swiper-slide">
                     <img src="/images/gallery/gallery-<?php echo $i; ?>.jpg" />
                 </div>
