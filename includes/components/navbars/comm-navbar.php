@@ -12,19 +12,16 @@
                 <!-- Links -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.craftmarkhomes.com/communities/watershed/digital-display/">Watershed</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.craftmarkhomes.com/communities/cabin-branch/digital-display/">The Village at Cabin Branch</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://display-grove.craftmarkhomes.com/">The Grove</a>
+                        <a class="nav-link" href="https://phpstack-1085099-4994026.cloudwaysapps.com/">The Grove</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://phpstack-1178905-4574578.cloudwaysapps.com/">Potomac Chase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://phpstack-1178905-4715854.cloudwaysapps.com/">Vienna Village</a>
+                        <a class="nav-link" href="https://phpstack-1178905-4680797.cloudwaysapps.com/">The Woods at Occoquan Overlook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://phpstack-1085099-5567565.cloudwaysapps.com/">Strathmore View</a>
                     </li>
                 </ul>
                 <!-- Links -->
